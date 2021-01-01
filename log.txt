@@ -1,4 +1,4 @@
--- Logs begin at Sun 2020-11-22 13:41:07 EST, end at Fri 2021-01-01 13:00:03 EST. --
+-- Logs begin at Sun 2020-11-22 13:41:07 EST, end at Fri 2021-01-01 16:20:46 EST. --
 Jan 01 12:43:09 ubntnetwork systemd[1]: Started Caddy.
 Jan 01 12:43:09 ubntnetwork caddy[24655]: caddy.HomeDir=/var/lib/caddy
 Jan 01 12:43:09 ubntnetwork caddy[24655]: caddy.AppDataDir=/var/lib/caddy/.local/share/caddy
@@ -236,3 +236,112 @@ Jan 01 13:00:03 ubntnetwork caddy[25688]: {"level":"info","ts":1609524003.622681
 Jan 01 13:00:03 ubntnetwork caddy[25688]: {"level":"info","ts":1609524003.6227083,"msg":"shutdown done","signal":"SIGTERM"}
 Jan 01 13:00:03 ubntnetwork systemd[1]: caddy.service: Succeeded.
 Jan 01 13:00:03 ubntnetwork systemd[1]: Stopped Caddy.
+Jan 01 14:39:49 ubntnetwork systemd[1]: Started Caddy.
+Jan 01 14:39:49 ubntnetwork caddy[35500]: caddy.HomeDir=/var/lib/caddy
+Jan 01 14:39:49 ubntnetwork caddy[35500]: caddy.AppDataDir=/var/lib/caddy/.local/share/caddy
+Jan 01 14:39:49 ubntnetwork caddy[35500]: caddy.AppConfigDir=/var/lib/caddy/.config/caddy
+Jan 01 14:39:49 ubntnetwork caddy[35500]: caddy.ConfigAutosavePath=/var/lib/caddy/.config/caddy/autosave.json
+Jan 01 14:39:49 ubntnetwork caddy[35500]: caddy.Version=v2.3.0-beta.1
+Jan 01 14:39:49 ubntnetwork caddy[35500]: runtime.GOOS=linux
+Jan 01 14:39:49 ubntnetwork caddy[35500]: runtime.GOARCH=amd64
+Jan 01 14:39:49 ubntnetwork caddy[35500]: runtime.Compiler=gc
+Jan 01 14:39:49 ubntnetwork caddy[35500]: runtime.NumCPU=1
+Jan 01 14:39:49 ubntnetwork caddy[35500]: runtime.GOMAXPROCS=1
+Jan 01 14:39:49 ubntnetwork caddy[35500]: runtime.Version=go1.15.6
+Jan 01 14:39:49 ubntnetwork caddy[35500]: os.Getwd=/
+Jan 01 14:39:49 ubntnetwork caddy[35500]: LANG=C.UTF-8
+Jan 01 14:39:49 ubntnetwork caddy[35500]: PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+Jan 01 14:39:49 ubntnetwork caddy[35500]: HOME=/var/lib/caddy
+Jan 01 14:39:49 ubntnetwork caddy[35500]: LOGNAME=caddy
+Jan 01 14:39:49 ubntnetwork caddy[35500]: USER=caddy
+Jan 01 14:39:49 ubntnetwork caddy[35500]: INVOCATION_ID=33a08b0ca52441af8175e1999ebcfd1c
+Jan 01 14:39:49 ubntnetwork caddy[35500]: JOURNAL_STREAM=9:150508
+Jan 01 14:39:49 ubntnetwork caddy[35500]: {"level":"info","ts":1609529989.924049,"msg":"using provided configuration","config_file":"/etc/caddy/Caddyfile","config_adapter":""}
+Jan 01 14:39:49 ubntnetwork caddy[35500]: {"level":"info","ts":1609529989.9257052,"logger":"admin","msg":"admin endpoint started","address":"tcp/localhost:2019","enforce_origin":false,"origins":["localhost:2019","[::1]:2019","127.0.0.1:2019"]}
+Jan 01 14:39:49 ubntnetwork caddy[35500]: {"level":"info","ts":1609529989.9262164,"logger":"http","msg":"server is listening only on the HTTPS port but has no TLS connection policies; adding one to enable TLS","server_name":"srv0","https_port":443}
+Jan 01 14:39:49 ubntnetwork caddy[35500]: {"level":"info","ts":1609529989.9263146,"logger":"http","msg":"enabling automatic HTTP->HTTPS redirects","server_name":"srv0"}
+Jan 01 14:39:49 ubntnetwork caddy[35500]: {"level":"info","ts":1609529989.9275877,"logger":"http","msg":"enabling automatic TLS certificate management","domains":["pihole.lan"]}
+Jan 01 14:39:49 ubntnetwork caddy[35500]: {"level":"info","ts":1609529989.9300835,"msg":"autosaved config","file":"/var/lib/caddy/.config/caddy/autosave.json"}
+Jan 01 14:39:49 ubntnetwork caddy[35500]: {"level":"info","ts":1609529989.930213,"msg":"serving initial configuration"}
+Jan 01 14:39:49 ubntnetwork caddy[35500]: {"level":"info","ts":1609529989.932829,"logger":"tls.obtain","msg":"acquiring lock","identifier":"pihole.lan"}
+Jan 01 14:39:49 ubntnetwork caddy[35500]: {"level":"info","ts":1609529989.9331744,"logger":"tls.obtain","msg":"lock acquired","identifier":"pihole.lan"}
+Jan 01 14:39:49 ubntnetwork caddy[35500]: {"level":"info","ts":1609529989.9418094,"logger":"tls.issuance.acme","msg":"waiting on internal rate limiter","identifiers":["pihole.lan"]}
+Jan 01 14:39:49 ubntnetwork caddy[35500]: {"level":"info","ts":1609529989.942014,"logger":"tls.issuance.acme","msg":"done waiting on internal rate limiter","identifiers":["pihole.lan"]}
+Jan 01 14:39:49 ubntnetwork caddy[35500]: {"level":"info","ts":1609529989.943232,"logger":"tls.cache.maintenance","msg":"started background certificate maintenance","cache":"0xc00047b3b0"}
+Jan 01 14:39:49 ubntnetwork caddy[35500]: {"level":"info","ts":1609529989.9434793,"logger":"tls","msg":"cleaned up storage units"}
+Jan 01 14:39:50 ubntnetwork caddy[35500]: {"level":"info","ts":1609529990.0537155,"logger":"tls.issuance.acme.acme_client","msg":"trying to solve challenge","identifier":"pihole.lan","challenge_type":"http-01","ca":"https://tinyca.lan/acme/acme/directory"}
+Jan 01 14:42:03 ubntnetwork systemd[1]: Stopping Caddy...
+Jan 01 14:42:03 ubntnetwork caddy[35500]: {"level":"info","ts":1609530123.4341614,"msg":"shutting down apps then terminating","signal":"SIGTERM"}
+Jan 01 14:42:04 ubntnetwork caddy[35500]: {"level":"info","ts":1609530124.4344993,"logger":"tls.cache.maintenance","msg":"stopped background certificate maintenance","cache":"0xc00047b3b0"}
+Jan 01 14:42:04 ubntnetwork caddy[35500]: {"level":"warn","ts":1609530124.4353027,"logger":"tls.issuance.acme.acme_client","msg":"HTTP request failed; retrying","url":"https://tinyca.lan/acme/acme/authz/SYe0cISwhaNHG8KScEojkIpZDlDd8jlo","error":"performing request: Post \"https://tinyca.lan/acme/acme/authz/SYe0cISwhaNHG8KScEojkIpZDlDd8jlo\": context canceled"}
+Jan 01 14:42:04 ubntnetwork caddy[35500]: {"level":"error","ts":1609530124.435418,"logger":"tls.issuance.acme.acme_client","msg":"deactivating authorization","identifier":"pihole.lan","authz":"https://tinyca.lan/acme/acme/authz/SYe0cISwhaNHG8KScEojkIpZDlDd8jlo","error":"request to https://tinyca.lan/acme/acme/authz/SYe0cISwhaNHG8KScEojkIpZDlDd8jlo failed after 1 attempts: context canceled"}
+Jan 01 14:42:04 ubntnetwork caddy[35500]: {"level":"info","ts":1609530124.4355247,"logger":"tls.obtain","msg":"releasing lock","identifier":"pihole.lan"}
+Jan 01 14:42:04 ubntnetwork caddy[35500]: {"level":"error","ts":1609530124.435652,"logger":"tls.obtain","msg":"unable to unlock","identifier":"pihole.lan","lock_key":"issue_cert_pihole.lan","error":"remove /var/lib/caddy/.local/share/caddy/locks/issue_cert_pihole.lan.lock: no such file or directory"}
+Jan 01 14:42:04 ubntnetwork caddy[35500]: {"level":"error","ts":1609530124.4357483,"logger":"tls","msg":"job failed","error":"pihole.lan: obtaining certificate: [pihole.lan] Obtain: [pihole.lan] solving challenges: [pihole.lan] context canceled (order=https://tinyca.lan/acme/acme/order/lMV33bQUhmMRohnXKKsTSkCyQviLyTzW) (ca=https://tinyca.lan/acme/acme/directory)"}
+Jan 01 14:42:04 ubntnetwork caddy[35500]: {"level":"info","ts":1609530124.935107,"logger":"admin","msg":"stopped previous server"}
+Jan 01 14:42:04 ubntnetwork caddy[35500]: {"level":"info","ts":1609530124.9353387,"msg":"shutdown done","signal":"SIGTERM"}
+Jan 01 14:42:04 ubntnetwork systemd[1]: caddy.service: Succeeded.
+Jan 01 14:42:04 ubntnetwork systemd[1]: Stopped Caddy.
+Jan 01 15:53:00 ubntnetwork systemd[1]: Started Caddy.
+Jan 01 15:53:00 ubntnetwork caddy[41365]: caddy.HomeDir=/var/lib/caddy
+Jan 01 15:53:00 ubntnetwork caddy[41365]: caddy.AppDataDir=/var/lib/caddy/.local/share/caddy
+Jan 01 15:53:00 ubntnetwork caddy[41365]: caddy.AppConfigDir=/var/lib/caddy/.config/caddy
+Jan 01 15:53:00 ubntnetwork caddy[41365]: caddy.ConfigAutosavePath=/var/lib/caddy/.config/caddy/autosave.json
+Jan 01 15:53:00 ubntnetwork caddy[41365]: caddy.Version=v2.3.0-beta.1
+Jan 01 15:53:00 ubntnetwork caddy[41365]: runtime.GOOS=linux
+Jan 01 15:53:00 ubntnetwork caddy[41365]: runtime.GOARCH=amd64
+Jan 01 15:53:00 ubntnetwork caddy[41365]: runtime.Compiler=gc
+Jan 01 15:53:00 ubntnetwork caddy[41365]: runtime.NumCPU=1
+Jan 01 15:53:00 ubntnetwork caddy[41365]: runtime.GOMAXPROCS=1
+Jan 01 15:53:00 ubntnetwork caddy[41365]: runtime.Version=go1.15.6
+Jan 01 15:53:00 ubntnetwork caddy[41365]: os.Getwd=/
+Jan 01 15:53:00 ubntnetwork caddy[41365]: LANG=C.UTF-8
+Jan 01 15:53:00 ubntnetwork caddy[41365]: PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+Jan 01 15:53:00 ubntnetwork caddy[41365]: HOME=/var/lib/caddy
+Jan 01 15:53:00 ubntnetwork caddy[41365]: LOGNAME=caddy
+Jan 01 15:53:00 ubntnetwork caddy[41365]: USER=caddy
+Jan 01 15:53:00 ubntnetwork caddy[41365]: INVOCATION_ID=3df6ac76a48140a2942836711cdfaed4
+Jan 01 15:53:00 ubntnetwork caddy[41365]: JOURNAL_STREAM=9:161336
+Jan 01 15:53:00 ubntnetwork caddy[41365]: {"level":"info","ts":1609534380.1461208,"msg":"using provided configuration","config_file":"/etc/caddy/Caddyfile","config_adapter":""}
+Jan 01 15:53:00 ubntnetwork caddy[41365]: {"level":"info","ts":1609534380.1506412,"logger":"admin","msg":"admin endpoint started","address":"tcp/localhost:2019","enforce_origin":false,"origins":["127.0.0.1:2019","localhost:2019","[::1]:2019"]}
+Jan 01 15:53:00 ubntnetwork caddy[41365]: {"level":"info","ts":1609534380.1528857,"logger":"http","msg":"server is listening only on the HTTPS port but has no TLS connection policies; adding one to enable TLS","server_name":"srv0","https_port":443}
+Jan 01 15:53:00 ubntnetwork caddy[41365]: {"level":"info","ts":1609534380.1529882,"logger":"http","msg":"enabling automatic HTTP->HTTPS redirects","server_name":"srv0"}
+Jan 01 15:53:00 ubntnetwork caddy[41365]: {"level":"info","ts":1609534380.154338,"logger":"http","msg":"enabling automatic TLS certificate management","domains":["pihole.lan"]}
+Jan 01 15:53:00 ubntnetwork caddy[41365]: {"level":"info","ts":1609534380.1549628,"msg":"autosaved config","file":"/var/lib/caddy/.config/caddy/autosave.json"}
+Jan 01 15:53:00 ubntnetwork caddy[41365]: {"level":"info","ts":1609534380.155095,"msg":"serving initial configuration"}
+Jan 01 15:53:00 ubntnetwork caddy[41365]: {"level":"info","ts":1609534380.155333,"logger":"tls","msg":"cleaned up storage units"}
+Jan 01 15:53:00 ubntnetwork caddy[41365]: {"level":"info","ts":1609534380.1555448,"logger":"tls.cache.maintenance","msg":"started background certificate maintenance","cache":"0xc0002448c0"}
+Jan 01 15:53:00 ubntnetwork caddy[41365]: {"level":"info","ts":1609534380.1566308,"logger":"tls.obtain","msg":"acquiring lock","identifier":"pihole.lan"}
+Jan 01 15:53:00 ubntnetwork caddy[41365]: {"level":"info","ts":1609534380.1568768,"logger":"tls.obtain","msg":"lock acquired","identifier":"pihole.lan"}
+Jan 01 15:53:00 ubntnetwork caddy[41365]: {"level":"info","ts":1609534380.1638343,"logger":"tls.issuance.acme","msg":"waiting on internal rate limiter","identifiers":["pihole.lan"]}
+Jan 01 15:53:00 ubntnetwork caddy[41365]: {"level":"info","ts":1609534380.163939,"logger":"tls.issuance.acme","msg":"done waiting on internal rate limiter","identifiers":["pihole.lan"]}
+Jan 01 15:53:00 ubntnetwork caddy[41365]: {"level":"info","ts":1609534380.2437627,"logger":"tls.issuance.acme.acme_client","msg":"trying to solve challenge","identifier":"pihole.lan","challenge_type":"tls-alpn-01","ca":"https://tinyca.lan/acme/acme/directory"}
+Jan 01 15:53:15 ubntnetwork caddy[41365]: {"level":"warn","ts":1609534395.2448568,"logger":"tls.issuance.acme.acme_client","msg":"HTTP request failed; retrying","url":"https://tinyca.lan/acme/acme/challenge/iQwuhhl9A9tpcDej9H9ghGV0tNINb8ym","error":"performing request: Post \"https://tinyca.lan/acme/acme/challenge/iQwuhhl9A9tpcDej9H9ghGV0tNINb8ym\": http2: timeout awaiting response headers"}
+Jan 01 15:53:30 ubntnetwork caddy[41365]: {"level":"warn","ts":1609534410.7521136,"logger":"tls.issuance.acme.acme_client","msg":"HTTP request failed; retrying","url":"https://tinyca.lan/acme/acme/challenge/iQwuhhl9A9tpcDej9H9ghGV0tNINb8ym","error":"performing request: Post \"https://tinyca.lan/acme/acme/challenge/iQwuhhl9A9tpcDej9H9ghGV0tNINb8ym\": http2: timeout awaiting response headers"}
+Jan 01 15:53:46 ubntnetwork caddy[41365]: {"level":"warn","ts":1609534426.259289,"logger":"tls.issuance.acme.acme_client","msg":"HTTP request failed; retrying","url":"https://tinyca.lan/acme/acme/challenge/iQwuhhl9A9tpcDej9H9ghGV0tNINb8ym","error":"performing request: Post \"https://tinyca.lan/acme/acme/challenge/iQwuhhl9A9tpcDej9H9ghGV0tNINb8ym\": http2: timeout awaiting response headers"}
+Jan 01 15:54:01 ubntnetwork caddy[41365]: {"level":"warn","ts":1609534441.7668917,"logger":"tls.issuance.acme.acme_client","msg":"HTTP request failed; retrying","url":"https://tinyca.lan/acme/acme/challenge/iQwuhhl9A9tpcDej9H9ghGV0tNINb8ym","error":"performing request: Post \"https://tinyca.lan/acme/acme/challenge/iQwuhhl9A9tpcDej9H9ghGV0tNINb8ym\": http2: timeout awaiting response headers"}
+Jan 01 15:54:17 ubntnetwork caddy[41365]: {"level":"warn","ts":1609534457.274861,"logger":"tls.issuance.acme.acme_client","msg":"HTTP request failed; retrying","url":"https://tinyca.lan/acme/acme/challenge/iQwuhhl9A9tpcDej9H9ghGV0tNINb8ym","error":"performing request: Post \"https://tinyca.lan/acme/acme/challenge/iQwuhhl9A9tpcDej9H9ghGV0tNINb8ym\": http2: timeout awaiting response headers"}
+Jan 01 15:54:32 ubntnetwork caddy[41365]: {"level":"warn","ts":1609534472.7824986,"logger":"tls.issuance.acme.acme_client","msg":"HTTP request failed; retrying","url":"https://tinyca.lan/acme/acme/challenge/iQwuhhl9A9tpcDej9H9ghGV0tNINb8ym","error":"performing request: Post \"https://tinyca.lan/acme/acme/challenge/iQwuhhl9A9tpcDej9H9ghGV0tNINb8ym\": http2: timeout awaiting response headers"}
+Jan 01 15:54:48 ubntnetwork caddy[41365]: {"level":"warn","ts":1609534488.2898684,"logger":"tls.issuance.acme.acme_client","msg":"HTTP request failed; retrying","url":"https://tinyca.lan/acme/acme/challenge/iQwuhhl9A9tpcDej9H9ghGV0tNINb8ym","error":"performing request: Post \"https://tinyca.lan/acme/acme/challenge/iQwuhhl9A9tpcDej9H9ghGV0tNINb8ym\": http2: timeout awaiting response headers"}
+Jan 01 15:55:03 ubntnetwork caddy[41365]: {"level":"warn","ts":1609534503.797176,"logger":"tls.issuance.acme.acme_client","msg":"HTTP request failed; retrying","url":"https://tinyca.lan/acme/acme/challenge/iQwuhhl9A9tpcDej9H9ghGV0tNINb8ym","error":"performing request: Post \"https://tinyca.lan/acme/acme/challenge/iQwuhhl9A9tpcDej9H9ghGV0tNINb8ym\": http2: timeout awaiting response headers"}
+Jan 01 15:55:19 ubntnetwork caddy[41365]: {"level":"warn","ts":1609534519.304532,"logger":"tls.issuance.acme.acme_client","msg":"HTTP request failed; retrying","url":"https://tinyca.lan/acme/acme/challenge/iQwuhhl9A9tpcDej9H9ghGV0tNINb8ym","error":"performing request: Post \"https://tinyca.lan/acme/acme/challenge/iQwuhhl9A9tpcDej9H9ghGV0tNINb8ym\": http2: timeout awaiting response headers"}
+Jan 01 15:55:34 ubntnetwork caddy[41365]: {"level":"warn","ts":1609534534.8170946,"logger":"tls.issuance.acme.acme_client","msg":"HTTP request failed; retrying","url":"https://tinyca.lan/acme/acme/challenge/iQwuhhl9A9tpcDej9H9ghGV0tNINb8ym","error":"performing request: Post \"https://tinyca.lan/acme/acme/challenge/iQwuhhl9A9tpcDej9H9ghGV0tNINb8ym\": http2: timeout awaiting response headers"}
+Jan 01 15:55:35 ubntnetwork caddy[41365]: {"level":"error","ts":1609534535.083217,"logger":"tls.issuance.acme.acme_client","msg":"deactivating authorization","identifier":"pihole.lan","authz":"https://tinyca.lan/acme/acme/authz/RAt4H0dqjDV1LHLomVB32ircYPsvr4XW","error":"request to https://tinyca.lan/acme/acme/authz/RAt4H0dqjDV1LHLomVB32ircYPsvr4XW failed after 1 attempts: HTTP 0 urn:ietf:params:acme:error:malformed - expected POST-as-GET"}
+Jan 01 15:55:35 ubntnetwork caddy[41365]: {"level":"error","ts":1609534535.083261,"logger":"tls.obtain","msg":"will retry","error":"[pihole.lan] Obtain: [pihole.lan] solving challenges: initiating challenge with server: request to https://tinyca.lan/acme/acme/challenge/iQwuhhl9A9tpcDej9H9ghGV0tNINb8ym failed after 11 attempts: HTTP 0 urn:ietf:params:acme:error:badNonce - Unacceptable anti-replay nonce (order=https://tinyca.lan/acme/acme/order/TWL9WRWe5ABhplTN8cVBnoPdvdPGnd28) (ca=https://tinyca.lan/acme/acme/directory)","attempt":1,"retrying_in":60,"elapsed":154.926296677,"max_duration":2592000}
+Jan 01 15:56:35 ubntnetwork caddy[41365]: {"level":"info","ts":1609534595.1458433,"logger":"tls.issuance.acme.acme_client","msg":"trying to solve challenge","identifier":"pihole.lan","challenge_type":"tls-alpn-01","ca":"https://tinyca.lan/acme/acme/directory"}
+Jan 01 15:56:50 ubntnetwork caddy[41365]: {"level":"warn","ts":1609534610.1470735,"logger":"tls.issuance.acme.acme_client","msg":"HTTP request failed; retrying","url":"https://tinyca.lan/acme/acme/challenge/Cn8vFPXyr8NUMxjbP7WXgPgcQn7Wqkqu","error":"performing request: Post \"https://tinyca.lan/acme/acme/challenge/Cn8vFPXyr8NUMxjbP7WXgPgcQn7Wqkqu\": http2: timeout awaiting response headers"}
+Jan 01 15:57:05 ubntnetwork caddy[41365]: {"level":"warn","ts":1609534625.6543562,"logger":"tls.issuance.acme.acme_client","msg":"HTTP request failed; retrying","url":"https://tinyca.lan/acme/acme/challenge/Cn8vFPXyr8NUMxjbP7WXgPgcQn7Wqkqu","error":"performing request: Post \"https://tinyca.lan/acme/acme/challenge/Cn8vFPXyr8NUMxjbP7WXgPgcQn7Wqkqu\": http2: timeout awaiting response headers"}
+Jan 01 15:57:07 ubntnetwork systemd[1]: Stopping Caddy...
+Jan 01 15:57:07 ubntnetwork caddy[41365]: {"level":"info","ts":1609534627.2213864,"msg":"shutting down apps then terminating","signal":"SIGTERM"}
+Jan 01 15:57:08 ubntnetwork caddy[41365]: {"level":"info","ts":1609534628.2217286,"logger":"tls.cache.maintenance","msg":"stopped background certificate maintenance","cache":"0xc0002448c0"}
+Jan 01 15:57:08 ubntnetwork caddy[41365]: {"level":"warn","ts":1609534628.2219403,"logger":"tls.issuance.acme.acme_client","msg":"HTTP request failed; retrying","url":"https://tinyca.lan/acme/acme/challenge/Cn8vFPXyr8NUMxjbP7WXgPgcQn7Wqkqu","error":"performing request: Post \"https://tinyca.lan/acme/acme/challenge/Cn8vFPXyr8NUMxjbP7WXgPgcQn7Wqkqu\": context canceled"}
+Jan 01 15:57:08 ubntnetwork caddy[41365]: {"level":"warn","ts":1609534628.2220995,"logger":"tls.issuance.acme.acme_client","msg":"HTTP request failed; retrying","url":"https://tinyca.lan/acme/acme/authz/nmafb45TKSaQtrdXSpeTsZbvAZUw8jfZ","error":"performing request: Post \"https://tinyca.lan/acme/acme/authz/nmafb45TKSaQtrdXSpeTsZbvAZUw8jfZ\": context canceled"}
+Jan 01 15:57:08 ubntnetwork caddy[41365]: {"level":"error","ts":1609534628.2221088,"logger":"tls.issuance.acme.acme_client","msg":"deactivating authorization","identifier":"pihole.lan","authz":"https://tinyca.lan/acme/acme/authz/nmafb45TKSaQtrdXSpeTsZbvAZUw8jfZ","error":"request to https://tinyca.lan/acme/acme/authz/nmafb45TKSaQtrdXSpeTsZbvAZUw8jfZ failed after 1 attempts: context canceled"}
+Jan 01 15:57:08 ubntnetwork caddy[41365]: {"level":"error","ts":1609534628.222122,"logger":"tls.obtain","msg":"will retry","error":"[pihole.lan] Obtain: [pihole.lan] solving challenges: initiating challenge with server: request to https://tinyca.lan/acme/acme/challenge/Cn8vFPXyr8NUMxjbP7WXgPgcQn7Wqkqu failed after 3 attempts: context canceled (order=https://tinyca.lan/acme/acme/order/lUm9YPEnLT9Q8QcTf2CYeQ2SVnhFSfvv) (ca=https://tinyca.lan/acme/acme/directory)","attempt":2,"retrying_in":120,"elapsed":248.065157735,"max_duration":2592000}
+Jan 01 15:57:08 ubntnetwork caddy[41365]: {"level":"info","ts":1609534628.2221286,"logger":"tls.obtain","msg":"releasing lock","identifier":"pihole.lan"}
+Jan 01 15:57:08 ubntnetwork caddy[41365]: {"level":"error","ts":1609534628.222162,"logger":"tls.obtain","msg":"unable to unlock","identifier":"pihole.lan","lock_key":"issue_cert_pihole.lan","error":"remove /var/lib/caddy/.local/share/caddy/locks/issue_cert_pihole.lan.lock: no such file or directory"}
+Jan 01 15:57:08 ubntnetwork caddy[41365]: {"level":"error","ts":1609534628.22217,"logger":"tls","msg":"job failed","error":"pihole.lan: obtaining certificate: context canceled"}
+Jan 01 15:57:08 ubntnetwork caddy[41365]: {"level":"info","ts":1609534628.7219822,"logger":"admin","msg":"stopped previous server"}
+Jan 01 15:57:08 ubntnetwork caddy[41365]: {"level":"info","ts":1609534628.7220135,"msg":"shutdown done","signal":"SIGTERM"}
+Jan 01 15:57:08 ubntnetwork systemd[1]: caddy.service: Succeeded.
+Jan 01 15:57:08 ubntnetwork systemd[1]: Stopped Caddy.
