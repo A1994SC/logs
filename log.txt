@@ -1,0 +1,46 @@
+-- Logs begin at Sun 2020-11-22 13:41:07 EST, end at Thu 2020-12-31 10:58:33 EST. --
+Dec 31 10:33:32 ubntnetwork systemd[1]: Started Caddy.
+Dec 31 10:33:32 ubntnetwork caddy[16053]: caddy.HomeDir=/var/lib/caddy
+Dec 31 10:33:32 ubntnetwork caddy[16053]: caddy.AppDataDir=/var/lib/caddy/.local/share/caddy
+Dec 31 10:33:32 ubntnetwork caddy[16053]: caddy.AppConfigDir=/var/lib/caddy/.config/caddy
+Dec 31 10:33:32 ubntnetwork caddy[16053]: caddy.ConfigAutosavePath=/var/lib/caddy/.config/caddy/autosave.json
+Dec 31 10:33:32 ubntnetwork caddy[16053]: caddy.Version=v2.3.0-beta.1
+Dec 31 10:33:32 ubntnetwork caddy[16053]: runtime.GOOS=linux
+Dec 31 10:33:32 ubntnetwork caddy[16053]: runtime.GOARCH=amd64
+Dec 31 10:33:32 ubntnetwork caddy[16053]: runtime.Compiler=gc
+Dec 31 10:33:32 ubntnetwork caddy[16053]: runtime.NumCPU=1
+Dec 31 10:33:32 ubntnetwork caddy[16053]: runtime.GOMAXPROCS=1
+Dec 31 10:33:32 ubntnetwork caddy[16053]: runtime.Version=go1.15.6
+Dec 31 10:33:32 ubntnetwork caddy[16053]: os.Getwd=/
+Dec 31 10:33:32 ubntnetwork caddy[16053]: LANG=C.UTF-8
+Dec 31 10:33:32 ubntnetwork caddy[16053]: PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+Dec 31 10:33:32 ubntnetwork caddy[16053]: HOME=/var/lib/caddy
+Dec 31 10:33:32 ubntnetwork caddy[16053]: LOGNAME=caddy
+Dec 31 10:33:32 ubntnetwork caddy[16053]: USER=caddy
+Dec 31 10:33:32 ubntnetwork caddy[16053]: INVOCATION_ID=2f5b71e6e66e4280a8c6232d19ba3433
+Dec 31 10:33:32 ubntnetwork caddy[16053]: JOURNAL_STREAM=9:98642
+Dec 31 10:33:32 ubntnetwork caddy[16053]: {"level":"info","ts":1609428812.3772001,"msg":"using provided configuration","config_file":"/etc/caddy/Caddyfile","config_adapter":""}
+Dec 31 10:33:32 ubntnetwork caddy[16053]: {"level":"info","ts":1609428812.3793614,"logger":"admin","msg":"admin endpoint started","address":"tcp/localhost:2019","enforce_origin":false,"origins":["localhost:2019","[::1]:2019","127.0.0.1:2019"]}
+Dec 31 10:33:32 ubntnetwork caddy[16053]: {"level":"info","ts":1609428812.3797162,"logger":"http","msg":"server is listening only on the HTTPS port but has no TLS connection policies; adding one to enable TLS","server_name":"srv0","https_port":443}
+Dec 31 10:33:32 ubntnetwork caddy[16053]: {"level":"info","ts":1609428812.3798218,"logger":"http","msg":"enabling automatic HTTP->HTTPS redirects","server_name":"srv0"}
+Dec 31 10:33:32 ubntnetwork caddy[16053]: {"level":"info","ts":1609428812.3815312,"logger":"http","msg":"enabling automatic TLS certificate management","domains":["pihole.int"]}
+Dec 31 10:33:32 ubntnetwork caddy[16053]: {"level":"info","ts":1609428812.3822298,"msg":"autosaved config","file":"/var/lib/caddy/.config/caddy/autosave.json"}
+Dec 31 10:33:32 ubntnetwork caddy[16053]: {"level":"info","ts":1609428812.382354,"msg":"serving initial configuration"}
+Dec 31 10:33:32 ubntnetwork caddy[16053]: {"level":"info","ts":1609428812.3833773,"logger":"tls.obtain","msg":"acquiring lock","identifier":"pihole.int"}
+Dec 31 10:33:32 ubntnetwork caddy[16053]: {"level":"info","ts":1609428812.3837101,"logger":"tls.obtain","msg":"lock acquired","identifier":"pihole.int"}
+Dec 31 10:33:32 ubntnetwork caddy[16053]: {"level":"info","ts":1609428812.3951452,"logger":"tls.cache.maintenance","msg":"started background certificate maintenance","cache":"0xc000485180"}
+Dec 31 10:33:32 ubntnetwork caddy[16053]: {"level":"info","ts":1609428812.3954499,"logger":"tls","msg":"cleaned up storage units"}
+Dec 31 10:33:32 ubntnetwork caddy[16053]: {"level":"info","ts":1609428812.3955832,"logger":"tls.issuance.acme","msg":"waiting on internal rate limiter","identifiers":["pihole.int"]}
+Dec 31 10:33:32 ubntnetwork caddy[16053]: {"level":"info","ts":1609428812.3956704,"logger":"tls.issuance.acme","msg":"done waiting on internal rate limiter","identifiers":["pihole.int"]}
+Dec 31 10:33:32 ubntnetwork caddy[16053]: {"level":"info","ts":1609428812.4841328,"logger":"tls.issuance.acme.acme_client","msg":"trying to solve challenge","identifier":"pihole.int","challenge_type":"tls-alpn-01","ca":"https://tinyca.int/acme/acme/directory"}
+Dec 31 10:38:32 ubntnetwork caddy[16053]: {"level":"error","ts":1609429112.6721594,"logger":"tls.issuance.acme.acme_client","msg":"deactivating authorization","identifier":"pihole.int","authz":"https://tinyca.int/acme/acme/authz/m8fgROlf01XFqxJ3irngyhQudnZ0wEVk","error":"request to https://tinyca.int/acme/acme/authz/m8fgROlf01XFqxJ3irngyhQudnZ0wEVk failed after 1 attempts: HTTP 0 urn:ietf:params:acme:error:malformed - expected POST-as-GET"}
+Dec 31 10:38:32 ubntnetwork caddy[16053]: {"level":"error","ts":1609429112.672644,"logger":"tls.obtain","msg":"will retry","error":"[pihole.int] Obtain: [pihole.int] solving challenges: [pihole.int] authorization took too long (order=https://tinyca.int/acme/acme/order/DvaysftgTYCaKkCOjg6qcynYqRuLQpHU) (ca=https://tinyca.int/acme/acme/directory)","attempt":1,"retrying_in":60,"elapsed":300.288847118,"max_duration":2592000}
+Dec 31 10:39:32 ubntnetwork caddy[16053]: {"level":"info","ts":1609429172.7248595,"logger":"tls.issuance.acme.acme_client","msg":"trying to solve challenge","identifier":"pihole.int","challenge_type":"http-01","ca":"https://tinyca.int/acme/acme/directory"}
+Dec 31 10:44:32 ubntnetwork caddy[16053]: {"level":"error","ts":1609429472.9147193,"logger":"tls.issuance.acme.acme_client","msg":"deactivating authorization","identifier":"pihole.int","authz":"https://tinyca.int/acme/acme/authz/bGpzbeteIfjlxZp8XDxPkUyHcZeXjSOl","error":"request to https://tinyca.int/acme/acme/authz/bGpzbeteIfjlxZp8XDxPkUyHcZeXjSOl failed after 1 attempts: HTTP 0 urn:ietf:params:acme:error:malformed - expected POST-as-GET"}
+Dec 31 10:44:32 ubntnetwork caddy[16053]: {"level":"error","ts":1609429472.9153056,"logger":"tls.obtain","msg":"will retry","error":"[pihole.int] Obtain: [pihole.int] solving challenges: [pihole.int] authorization took too long (order=https://tinyca.int/acme/acme/order/Qp6sVbKrmjJQsAw7b1m9o54q31BPfv4u) (ca=https://tinyca.int/acme/acme/directory)","attempt":2,"retrying_in":120,"elapsed":660.531508497,"max_duration":2592000}
+Dec 31 10:46:32 ubntnetwork caddy[16053]: {"level":"info","ts":1609429592.981938,"logger":"tls.issuance.acme.acme_client","msg":"trying to solve challenge","identifier":"pihole.int","challenge_type":"http-01","ca":"https://tinyca.int/acme/acme/directory"}
+Dec 31 10:51:33 ubntnetwork caddy[16053]: {"level":"error","ts":1609429893.212401,"logger":"tls.issuance.acme.acme_client","msg":"deactivating authorization","identifier":"pihole.int","authz":"https://tinyca.int/acme/acme/authz/f2jD3fIuNEBTBH5kRSG1ujcbsGpisSOd","error":"request to https://tinyca.int/acme/acme/authz/f2jD3fIuNEBTBH5kRSG1ujcbsGpisSOd failed after 1 attempts: HTTP 0 urn:ietf:params:acme:error:malformed - expected POST-as-GET"}
+Dec 31 10:51:33 ubntnetwork caddy[16053]: {"level":"error","ts":1609429893.2128515,"logger":"tls.obtain","msg":"will retry","error":"[pihole.int] Obtain: [pihole.int] solving challenges: [pihole.int] authorization took too long (order=https://tinyca.int/acme/acme/order/Qhx4fdHrjpq9MLs9Y9Q4nclIxAOZoHgD) (ca=https://tinyca.int/acme/acme/directory)","attempt":3,"retrying_in":120,"elapsed":1080.82905419,"max_duration":2592000}
+Dec 31 10:53:33 ubntnetwork caddy[16053]: {"level":"info","ts":1609430013.2636683,"logger":"tls.issuance.acme.acme_client","msg":"trying to solve challenge","identifier":"pihole.int","challenge_type":"http-01","ca":"https://tinyca.int/acme/acme/directory"}
+Dec 31 10:58:33 ubntnetwork caddy[16053]: {"level":"error","ts":1609430313.5390108,"logger":"tls.issuance.acme.acme_client","msg":"deactivating authorization","identifier":"pihole.int","authz":"https://tinyca.int/acme/acme/authz/ra9RaQT7JKjbPargadmKDDRmuHdZ0jlO","error":"request to https://tinyca.int/acme/acme/authz/ra9RaQT7JKjbPargadmKDDRmuHdZ0jlO failed after 1 attempts: HTTP 0 urn:ietf:params:acme:error:malformed - expected POST-as-GET"}
+Dec 31 10:58:33 ubntnetwork caddy[16053]: {"level":"error","ts":1609430313.5394316,"logger":"tls.obtain","msg":"will retry","error":"[pihole.int] Obtain: [pihole.int] solving challenges: [pihole.int] authorization took too long (order=https://tinyca.int/acme/acme/order/2NTbvQFknxxMMzfAJ4Bu7JjXTpRXk3ax) (ca=https://tinyca.int/acme/acme/directory)","attempt":4,"retrying_in":300,"elapsed":1501.155632571,"max_duration":2592000}
