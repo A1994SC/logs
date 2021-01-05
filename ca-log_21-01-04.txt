@@ -1,3 +1,72 @@
+-- Logs begin at Thu 2020-09-24 15:27:11 EDT, end at Mon 2021-01-04 19:22:30 EST. --
+Jan 04 18:22:57 tinyca systemd[1]: step-ca.service: Scheduled restart job, restart counter is at 2.
+Jan 04 18:22:57 tinyca systemd[1]: Stopped step-ca.
+Jan 04 18:22:57 tinyca systemd[1]: Started step-ca.
+Jan 04 18:22:57 tinyca sh[1937]: error opening /etc/step-ca/config/ca.json: open /etc/step-ca/config/ca.json: permission denied
+Jan 04 18:22:57 tinyca systemd[1]: step-ca.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Jan 04 18:22:57 tinyca systemd[1]: step-ca.service: Failed with result 'exit-code'.
+Jan 04 18:23:07 tinyca systemd[1]: step-ca.service: Scheduled restart job, restart counter is at 3.
+Jan 04 18:23:07 tinyca systemd[1]: Stopped step-ca.
+Jan 04 18:23:07 tinyca systemd[1]: Started step-ca.
+Jan 04 18:23:07 tinyca sh[2038]: error opening /etc/step-ca/config/ca.json: open /etc/step-ca/config/ca.json: permission denied
+Jan 04 18:23:07 tinyca systemd[1]: step-ca.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Jan 04 18:23:07 tinyca systemd[1]: step-ca.service: Failed with result 'exit-code'.
+Jan 04 18:23:18 tinyca systemd[1]: step-ca.service: Scheduled restart job, restart counter is at 4.
+Jan 04 18:23:18 tinyca systemd[1]: Stopped step-ca.
+Jan 04 18:23:18 tinyca systemd[1]: Started step-ca.
+Jan 04 18:23:18 tinyca sh[2045]: error opening /etc/step-ca/config/ca.json: open /etc/step-ca/config/ca.json: permission denied
+Jan 04 18:23:18 tinyca systemd[1]: step-ca.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Jan 04 18:23:18 tinyca systemd[1]: step-ca.service: Failed with result 'exit-code'.
+Jan 04 18:23:28 tinyca systemd[1]: step-ca.service: Scheduled restart job, restart counter is at 5.
+Jan 04 18:23:28 tinyca systemd[1]: Stopped step-ca.
+Jan 04 18:23:28 tinyca systemd[1]: Started step-ca.
+Jan 04 18:23:28 tinyca sh[2052]: error opening /etc/step-ca/config/ca.json: open /etc/step-ca/config/ca.json: permission denied
+Jan 04 18:23:28 tinyca systemd[1]: step-ca.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Jan 04 18:23:28 tinyca systemd[1]: step-ca.service: Failed with result 'exit-code'.
+Jan 04 18:23:38 tinyca systemd[1]: step-ca.service: Scheduled restart job, restart counter is at 6.
+Jan 04 18:23:38 tinyca systemd[1]: Stopped step-ca.
+Jan 04 18:23:38 tinyca systemd[1]: Started step-ca.
+Jan 04 18:23:38 tinyca sh[2060]: error opening /etc/step-ca/config/ca.json: open /etc/step-ca/config/ca.json: permission denied
+Jan 04 18:23:38 tinyca systemd[1]: step-ca.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Jan 04 18:23:38 tinyca systemd[1]: step-ca.service: Failed with result 'exit-code'.
+Jan 04 18:23:48 tinyca systemd[1]: step-ca.service: Scheduled restart job, restart counter is at 7.
+Jan 04 18:23:48 tinyca systemd[1]: Stopped step-ca.
+Jan 04 18:23:48 tinyca systemd[1]: Started step-ca.
+Jan 04 18:23:48 tinyca sh[2068]: error opening /etc/step-ca/config/ca.json: open /etc/step-ca/config/ca.json: permission denied
+Jan 04 18:23:48 tinyca systemd[1]: step-ca.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Jan 04 18:23:48 tinyca systemd[1]: step-ca.service: Failed with result 'exit-code'.
+Jan 04 18:23:59 tinyca systemd[1]: step-ca.service: Scheduled restart job, restart counter is at 8.
+Jan 04 18:23:59 tinyca systemd[1]: Stopped step-ca.
+Jan 04 18:23:59 tinyca systemd[1]: Started step-ca.
+Jan 04 18:23:59 tinyca sh[2079]: error opening /etc/step-ca/config/ca.json: open /etc/step-ca/config/ca.json: permission denied
+Jan 04 18:23:59 tinyca systemd[1]: step-ca.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Jan 04 18:23:59 tinyca systemd[1]: step-ca.service: Failed with result 'exit-code'.
+Jan 04 18:24:09 tinyca systemd[1]: step-ca.service: Scheduled restart job, restart counter is at 9.
+Jan 04 18:24:09 tinyca systemd[1]: Stopped step-ca.
+Jan 04 18:24:09 tinyca systemd[1]: Started step-ca.
+Jan 04 18:24:09 tinyca sh[2086]: error opening /etc/step-ca/config/ca.json: open /etc/step-ca/config/ca.json: permission denied
+Jan 04 18:24:09 tinyca systemd[1]: step-ca.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Jan 04 18:24:09 tinyca systemd[1]: step-ca.service: Failed with result 'exit-code'.
+Jan 04 18:24:19 tinyca systemd[1]: step-ca.service: Scheduled restart job, restart counter is at 10.
+Jan 04 18:24:19 tinyca systemd[1]: Stopped step-ca.
+Jan 04 18:24:19 tinyca systemd[1]: Started step-ca.
+Jan 04 18:24:19 tinyca sh[2094]: error opening /etc/step-ca/config/ca.json: open /etc/step-ca/config/ca.json: permission denied
+Jan 04 18:24:19 tinyca systemd[1]: step-ca.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Jan 04 18:24:19 tinyca systemd[1]: step-ca.service: Failed with result 'exit-code'.
+Jan 04 18:24:29 tinyca systemd[1]: step-ca.service: Scheduled restart job, restart counter is at 11.
+Jan 04 18:24:29 tinyca systemd[1]: Stopped step-ca.
+Jan 04 18:24:29 tinyca systemd[1]: Started step-ca.
+Jan 04 18:24:29 tinyca sh[2101]: error opening /etc/step-ca/config/ca.json: open /etc/step-ca/config/ca.json: permission denied
+Jan 04 18:24:29 tinyca systemd[1]: step-ca.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Jan 04 18:24:29 tinyca systemd[1]: step-ca.service: Failed with result 'exit-code'.
+Jan 04 18:24:40 tinyca systemd[1]: step-ca.service: Scheduled restart job, restart counter is at 12.
+Jan 04 18:24:40 tinyca systemd[1]: Stopped step-ca.
+Jan 04 18:24:40 tinyca systemd[1]: Started step-ca.
+Jan 04 18:24:40 tinyca sh[2115]: error opening /etc/step-ca/config/ca.json: open /etc/step-ca/config/ca.json: permission denied
+Jan 04 18:24:40 tinyca systemd[1]: step-ca.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Jan 04 18:24:40 tinyca systemd[1]: step-ca.service: Failed with result 'exit-code'.
+Jan 04 18:24:50 tinyca systemd[1]: step-ca.service: Scheduled restart job, restart counter is at 13.
+Jan 04 18:24:50 tinyca systemd[1]: Stopped step-ca.
 Jan 04 18:24:50 tinyca systemd[1]: Started step-ca.
 Jan 04 18:24:50 tinyca sh[2124]: 2021/01/04 18:24:50 Serving HTTPS on :443 ...
 Jan 04 18:25:00 tinyca sh[2124]: time="2021-01-04T18:25:00-05:00" level=info duration=2.386201ms duration-ns=2386201 fields.time="2021-01-04T18:25:00-05:00" method=GET name=ca path=/root/c395d2ff39c0f31559f947e7c6e398ee6fd2d1db6f02647893c914d99081cd1e protocol=HTTP/1.1 referer= remote-address=10.2.1.5 request-id=bvpq7j3pqv8sng6s0h7g size=586 status=200 user-agent="Smallstep CLI/0.15.3 (linux/arm)" user-id=
@@ -16,3 +85,13 @@ Jan 04 18:26:16 tinyca sh[2124]: time="2021-01-04T18:26:16-05:00" level=info dur
 Jan 04 18:26:17 tinyca sh[2124]: time="2021-01-04T18:26:17-05:00" level=info duration="300.754µs" duration-ns=300754 fields.time="2021-01-04T18:26:17-05:00" method=GET name=ca path=/root/c395d2ff39c0f31559f947e7c6e398ee6fd2d1db6f02647893c914d99081cd1e protocol=HTTP/1.1 referer= remote-address=10.2.25.5 request-id=bvpq86bpqv8sng6s0heg size=586 status=200 user-agent="Smallstep CLI/0.15.3 (linux/amd64)" user-id=
 Jan 04 18:26:17 tinyca sh[2124]: time="2021-01-04T18:26:17-05:00" level=info certificate="MIICETCCAbagAwIBAgIQB+nmotjvTHSHxb5GMBj9QzAKBggqhkjOPQQDAjAgMR4wHAYDVQQDExVEZXJweSBJbnRlcm1lZGlhdGUgQ0EwHhcNMjEwMTA0MjMyNTE3WhcNMjEwMTA1MjMyNjE3WjAVMRMwEQYDVQQDEwpwaWhvbGUubGFuMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEoUxux0e1WYmus0YA22fnpVUT6AnLqPEEQFsy7hRqa4pa/7oxL+KYD3uiAYwO+De6hJ78zWMzX20Vw1RThINQBaOB3DCB2TAOBgNVHQ8BAf8EBAMCB4AwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMB0GA1UdDgQWBBR45ezYlD3xX8CIg7keWcA6eDSq0jAfBgNVHSMEGDAWgBT2iRyjwFE2R/c76isazx3b3Et9ADAVBgNVHREEDjAMggpwaWhvbGUubGFuMFEGDCsGAQQBgqRkxihAAQRBMD8CAQEEDWNhQGNvbmxvbi5kZXYEK1Z6WmxFQkRnMEhwSXhVaVVmT0JWdGQ5blBRV2RhdHZnYTNaaUFnM1JYMjgwCgYIKoZIzj0EAwIDSQAwRgIhAMarlhs9SEMtRei7VbRTLwymE4jGnF1RKqvbZ4K/ZVToAiEA61cJAusfI3hmDPGl9QLoaKkWISnuGpOuV48lTetthlE=" duration=94.769602ms duration-ns=94769602 fields.time="2021-01-04T18:26:17-05:00" issuer="Derpy Intermediate CA" method=POST name=ca ott=eyJhbGciOiJFUzI1NiIsImtpZCI6IlZ6WmxFQkRnMEhwSXhVaVVmT0JWdGQ5blBRV2RhdHZnYTNaaUFnM1JYMjgiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJodHRwczovL3RpbnljYS5sYW4vMS4wL3NpZ24iLCJleHAiOjE2MDk4MDMwNzcsImlhdCI6MTYwOTgwMjc3NywiaXNzIjoiY2FAY29ubG9uLmRldiIsImp0aSI6IjI0N2UyYzQ1Y2E3YTkwNTI4MDUyMWMyNTA2N2VmMjQwNTRmODUwNWE1YjQyYzQ3NjBkYzhlOTA3MDA3MTFkZGUiLCJuYmYiOjE2MDk4MDI3NzcsInNhbnMiOlsicGlob2xlLmxhbiJdLCJzaGEiOiJjMzk1ZDJmZjM5YzBmMzE1NTlmOTQ3ZTdjNmUzOThlZTZmZDJkMWRiNmYwMjY0Nzg5M2M5MTRkOTkwODFjZDFlIiwic3ViIjoicGlob2xlLmxhbiJ9.Lo4acWFZh0bx--KhggvsYGf1xCTnpoERZ5maXtVXkuDP5OkB6MEXgHjAwzzLUhxwZXEDVvHGYUYwrOvMXsz0-Q path=/sign protocol=HTTP/2.0 provisioner="ca@conlon.dev (VzZlEBDg0HpIxUiUfOBVtd9nPQWdatvga3ZiAg3RX28)" public-key="ECDSA P-256" referer= remote-address=10.2.25.5 request-id=bvpq86bpqv8sng6s0hf0 serial=10519078994842249584551329923434347843 size=3054 status=201 subject=pihole.lan user-agent="Smallstep CLI/0.15.3 (linux/amd64)" user-id= valid-from="2021-01-04T23:25:17Z" valid-to="2021-01-05T23:26:17Z"
 Jan 04 18:26:28 tinyca sh[2124]: time="2021-01-04T18:26:28-05:00" level=info duration=30.016748512s duration-ns=30016748512 fields.time="2021-01-04T18:25:58-05:00" method=POST name=ca nonce=aHVyVFV2SkIwRUNUTHZMbGs1b25vQ1ZrRjhLeDFrTk0 path=/acme/acme/challenge/jDz69JW789ryOXqgVTjlfIXWMDdDfsCS protocol=HTTP/2.0 referer= remote-address=10.2.25.5 request-id=bvpq81jpqv8sng6s0hd0 response="{\"type\":\"http-01\",\"status\":\"pending\",\"token\":\"rCdzWLqMNJNB2my7Ewps8lvaU809T4Yg\",\"url\":\"https://tinyca.lan/acme/acme/challenge/jDz69JW789ryOXqgVTjlfIXWMDdDfsCS\"}" size=161 status=200 user-agent=Go-http-client/2.0 user-id=
+Jan 04 19:20:36 tinyca sh[2124]: time="2021-01-04T19:20:36-05:00" level=info duration="400.827µs" duration-ns=400827 fields.time="2021-01-04T19:20:36-05:00" method=GET name=ca path="/provisioners?limit=100" protocol=HTTP/2.0 referer= remote-address=10.2.25.5 request-id=bvpr1l3pqv8sng6s0hfg size=907 status=200 user-agent="Smallstep CLI/0.15.3 (linux/amd64)" user-id=
+Jan 04 19:20:36 tinyca sh[2124]: time="2021-01-04T19:20:36-05:00" level=info duration=8.300544ms duration-ns=8300544 fields.time="2021-01-04T19:20:36-05:00" method=GET name=ca nonce=R3ZUZjgwQUc2dTAyZ3BUSElvRUlzRnZFSVd6V3JvNjA path=/acme/acme/directory protocol=HTTP/2.0 referer= remote-address=10.2.25.5 request-id=bvpr1l3pqv8sng6s0hg0 response="{\"newNonce\":\"https://tinyca.lan/acme/acme/new-nonce\",\"newAccount\":\"https://tinyca.lan/acme/acme/new-account\",\"newOrder\":\"https://tinyca.lan/acme/acme/new-order\",\"revokeCert\":\"https://tinyca.lan/acme/acme/revoke-cert\",\"keyChange\":\"https://tinyca.lan/acme/acme/key-change\"}" size=272 status=200 user-agent=Go-http-client/2.0 user-id=
+Jan 04 19:20:36 tinyca sh[2124]: time="2021-01-04T19:20:36-05:00" level=info duration=8.128935ms duration-ns=8128935 fields.time="2021-01-04T19:20:36-05:00" method=GET name=ca nonce=b2N0cnZYSVV4MXdNRUNBcGkxSjZ5a0ZJRTdoNnJkRUE path=/acme/acme/new-nonce protocol=HTTP/2.0 referer= remote-address=10.2.25.5 request-id=bvpr1l3pqv8sng6s0hgg size=0 status=204 user-agent=Go-http-client/2.0 user-id=
+Jan 04 19:20:36 tinyca sh[2124]: time="2021-01-04T19:20:36-05:00" level=info duration=17.121578ms duration-ns=17121578 fields.time="2021-01-04T19:20:36-05:00" method=POST name=ca nonce=MktoZUlLU0JZc29uTGU3OXV5RklkWTVja1k5Sk9IUDQ path=/acme/acme/new-account protocol=HTTP/2.0 referer= remote-address=10.2.25.5 request-id=bvpr1l3pqv8sng6s0hh0 response="{\"status\":\"valid\",\"orders\":\"https://tinyca.lan/acme/acme/account/QDfPPLi89mjNee1DJhpPqCjzMrhxLFUG/orders\"}" size=107 status=201 user-agent=Go-http-client/2.0 user-id=
+Jan 04 19:20:36 tinyca sh[2124]: time="2021-01-04T19:20:36-05:00" level=info duration=2.747953ms duration-ns=2747953 fields.time="2021-01-04T19:20:36-05:00" method=GET name=ca nonce=bFNmUWw2NUZHcTNqOW9rUE9FNjNSWFVIbWpnSU5YMVg path=/acme/acme/new-nonce protocol=HTTP/2.0 referer= remote-address=10.2.25.5 request-id=bvpr1l3pqv8sng6s0hhg size=0 status=204 user-agent=Go-http-client/2.0 user-id=
+Jan 04 19:20:36 tinyca sh[2124]: time="2021-01-04T19:20:36-05:00" level=info duration=20.941383ms duration-ns=20941383 fields.time="2021-01-04T19:20:36-05:00" method=POST name=ca nonce=UkZaUEpoVUxBQkt6eVBXTkNIM1d6OTRvckZYSDJQNUU path=/acme/acme/new-order protocol=HTTP/2.0 referer= remote-address=10.2.25.5 request-id=bvpr1l3pqv8sng6s0hi0 response="{\"status\":\"pending\",\"expires\":\"2021-01-06T00:20:37Z\",\"identifiers\":[{\"type\":\"dns\",\"value\":\"pihole.lan\"}],\"notBefore\":\"2021-01-05T00:19:37Z\",\"notAfter\":\"2021-01-06T00:20:37Z\",\"authorizations\":[\"https://tinyca.lan/acme/acme/authz/YTalcxCYnwdYuEcd9xaLS29ofYt6cqq1\"],\"finalize\":\"https://tinyca.lan/acme/acme/order/RiFW5xoAliM9N4Z5RJ0xFpwXlh4QZemA/finalize\"}" size=354 status=201 user-agent=Go-http-client/2.0 user-id=
+Jan 04 19:20:36 tinyca sh[2124]: time="2021-01-04T19:20:36-05:00" level=info duration=2.795711ms duration-ns=2795711 fields.time="2021-01-04T19:20:36-05:00" method=GET name=ca nonce=QXNmd0k0MkdVY2E2SGZnNkExWHpnVUhiWUVPaHU1S2c path=/acme/acme/new-nonce protocol=HTTP/2.0 referer= remote-address=10.2.25.5 request-id=bvpr1l3pqv8sng6s0hig size=0 status=204 user-agent=Go-http-client/2.0 user-id=
+Jan 04 19:20:36 tinyca sh[2124]: time="2021-01-04T19:20:36-05:00" level=info duration=6.672886ms duration-ns=6672886 fields.time="2021-01-04T19:20:36-05:00" method=POST name=ca nonce=ZUFKRFN0U3BLWnlteFJqQmtZS2dSYk5PZHFQMTN6cHM path=/acme/acme/authz/YTalcxCYnwdYuEcd9xaLS29ofYt6cqq1 protocol=HTTP/2.0 referer= remote-address=10.2.25.5 request-id=bvpr1l3pqv8sng6s0hj0 response="{\"identifier\":{\"type\":\"dns\",\"value\":\"pihole.lan\"},\"status\":\"pending\",\"expires\":\"2021-01-06T00:20:37Z\",\"challenges\":[{\"type\":\"http-01\",\"status\":\"pending\",\"token\":\"2cz0dsVgad6qtP5WOuaGojiuw9UlEiGY\",\"url\":\"https://tinyca.lan/acme/acme/challenge/EGok2SQ9ahpJnefXRXj2drsOsPAlP3fW\"},{\"type\":\"tls-alpn-01\",\"status\":\"pending\",\"token\":\"J6C8uJXgHQIkwVHobpV4C6HHYEmHbOMD\",\"url\":\"https://tinyca.lan/acme/acme/challenge/brfg4i40M7C1TctIWKj83y0qdyfwiYG3\"},{\"type\":\"dns-01\",\"status\":\"pending\",\"token\":\"OAQEapS6Gn1TNmkLEuv2pVqga2mcp5XC\",\"url\":\"https://tinyca.lan/acme/acme/challenge/FV1ZePBVhMpOkaECrLvfEuoPbjmRCtI1\"}],\"wildcard\":false}" size=621 status=200 user-agent=Go-http-client/2.0 user-id=
+Jan 04 19:20:36 tinyca sh[2124]: time="2021-01-04T19:20:36-05:00" level=info duration=2.884598ms duration-ns=2884598 fields.time="2021-01-04T19:20:36-05:00" method=GET name=ca nonce=SnI5MWJuUkF1d0Ezd1lYdzZnMkhHVTdYVnd0V2lLU3I path=/acme/acme/new-nonce protocol=HTTP/2.0 referer= remote-address=10.2.25.5 request-id=bvpr1l3pqv8sng6s0hjg size=0 status=204 user-agent=Go-http-client/2.0 user-id=
+Jan 04 19:21:06 tinyca sh[2124]: time="2021-01-04T19:21:06-05:00" level=info duration=30.008999907s duration-ns=30008999907 fields.time="2021-01-04T19:20:36-05:00" method=POST name=ca nonce=MmJueG1DS0NXYzdiVzByaXhrQWpGdnFwOTRWN3JFNVQ path=/acme/acme/challenge/EGok2SQ9ahpJnefXRXj2drsOsPAlP3fW protocol=HTTP/2.0 referer= remote-address=10.2.25.5 request-id=bvpr1l3pqv8sng6s0hk0 response="{\"type\":\"http-01\",\"status\":\"pending\",\"token\":\"2cz0dsVgad6qtP5WOuaGojiuw9UlEiGY\",\"url\":\"https://tinyca.lan/acme/acme/challenge/EGok2SQ9ahpJnefXRXj2drsOsPAlP3fW\"}" size=161 status=200 user-agent=Go-http-client/2.0 user-id=
